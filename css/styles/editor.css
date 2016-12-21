@@ -1,0 +1,28 @@
+
+/* Tags */
+
+.tag_name, .tag-active{
+  transition: all .2s ease-in-out;
+}
+
+.tag_name{
+  background-color: black;
+  border: 1px solid white;
+}
+
+.tag_name:hover{
+  color: black;
+  background-color: white;
+}
+
+.tag-active{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.tag-active:hover{
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>HM Board</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/styles/base.css">
+<script type='text/javascript' src="js/jquery.js"></script>
+<script type='text/javascript' src="js/pure.js"></script>
+<script type='text/javascript' src="js/config.js"></script>
+<script type='text/javascript' src="js/directives.js"></script>
+<script type='text/javascript' src="js/utils.js"></script>
+<script type='text/javascript' src="js/main.js"></script>
+</head>
+
+<body>
+
+<div id="page_wrap">
+
+<div id="title">
+<span id="title_name">Tag Search</span>
+</div>
+
+<div id="page_content">
+
+<!-- Top plane -->
+<div id="top_plane">
+
+<div id="logo">
+<img src="images/logo.png" alt="logo" width="160px" height="113px">
+</div>
+
+<!-- Search params div -->
+<div id="search_params_div">
+
+<div id="used_tags_list">
+<span id="used_tag_" class="used_tag">Used tag</span>
+</div>
+
+<div id="pseudo_tags_list">
+<span id="name_pseudo_tag" class="pseudo_tag">Name: <span id="name_pseudo_tag_content"></span></span>
+</div>
+
+</div> <!-- Search params div end -->
+
+</div>
+
+<!-- Bottom plane -->
+<div id="bottom_plane">
+
+<div id="search_bar_container">
+<form id="search_bar_form">
+<i id="search_bar_search" class="fa fa-search" aria-hidden="true"></i>
+<input id="filename_input" type="search" placeholder="Filename">
+</form>
+</div>
+
+<!-- Tag Selector -->
+<div id="tag_selector">
+
+<!-- Category Selector -->
+<div id="category_selector">
+
+<nav>
+<ul>
+<li>
+<span id="current_category_name">Select category</span><span id="current_category_reset"> [x]</span>
+<ul id="category_selector_list">
+<li id="category_item_">Category</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+</div>
+
+<!-- Tag list Selector -->
+<div id="tag_list">
+
+<div class="tag_list_container">
+<span id="tag_item_" class="tag_list_item">Tag</span>
+</div>
+
+</div>
+
+</div>
+
+<!-- Files view -->
+<div id="files_view">
+
+<div id="file_container_all">
+
+<div id="file_container_" class="file_container">
+<a class="file_edit_link" target="_blank" href="editor.html?code=">
+ <span class="filename_edit"><i class="fa fa-pencil-square-o filename_edit_icon" aria-hidden="true"></i></span>
+</a>
+<a class="file_edit_download" target="_blank" href="archive/">
+  <div class="fileinfo_container">
+    <div class="cover_wrap"><img class="cover" src="thumbs/"></div>
+    <span class="filename">Filename</span>
+  </div>
+</a>
+</div>
+
+</div>
+
+<div id="filesview_show_more"><span id="filesview_show_more_btn">Show more</span></div>
+
+</div><!-- Files view end -->
+
+</div>
+
+</div> <!-- Page content end -->
+
+</div>
+
+</body>

@@ -1,0 +1,86 @@
+
+#page_content{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#cover_container, #info_container{
+  float: left;
+}
+
+/* Cover */
+#cover{
+  display: block;
+}
+
+#read-link{
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: underline;
+  color: white;
+  font-size: 10pt;
+}
+
+#read-div{
+  text-decoration: none;
+}
+
+/* Info container */
+
+#info_container{
+  margin-left: 20px;
+  max-width: 70%;
+}
+
+/* Fileinfo */
+#fileinfo{
+ 
+}
+
+#fileinfo span{
+}
+
+#name{
+  display: block;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#author{
+  font-style: italic;
+}
+
+#type, #author, #serie{
+  display: none;
+}
+
+/* Tag container */
+#tag_container{
+  margin-top: 20px;
+}
+
+.category_name{
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.tag_name, .tag-active{
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tag_name{
+}
+
+.tag-active{
+  font-weight: bold;
+}
