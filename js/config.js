@@ -1,1 +1,1 @@
-var PROFILE = 'test';
+var PROFILE = 'default';
